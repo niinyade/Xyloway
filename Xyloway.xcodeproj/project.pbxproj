@@ -13,9 +13,14 @@
 		CF51DD2D281C603E008BA080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF51DD2B281C603E008BA080 /* Main.storyboard */; };
 		CF51DD2F281C603F008BA080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF51DD2E281C603F008BA080 /* Assets.xcassets */; };
 		CF51DD32281C603F008BA080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF51DD30281C603F008BA080 /* LaunchScreen.storyboard */; };
-		CF51DD3D281C603F008BA080 /* XylowayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF51DD3C281C603F008BA080 /* XylowayTests.swift */; };
-		CF51DD47281C603F008BA080 /* XylowayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF51DD46281C603F008BA080 /* XylowayUITests.swift */; };
-		CF51DD49281C603F008BA080 /* XylowayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF51DD48281C603F008BA080 /* XylowayUITestsLaunchTests.swift */; };
+		CF51DD70281C64E6008BA080 /* Venus.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF51DD68281C64E6008BA080 /* Venus.wav */; };
+		CF51DD71281C64E6008BA080 /* Earth.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF51DD69281C64E6008BA080 /* Earth.wav */; };
+		CF51DD72281C64E6008BA080 /* Neptune.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF51DD6A281C64E6008BA080 /* Neptune.wav */; };
+		CF51DD73281C64E6008BA080 /* Mercury.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF51DD6B281C64E6008BA080 /* Mercury.wav */; };
+		CF51DD74281C64E6008BA080 /* Saturn.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF51DD6C281C64E6008BA080 /* Saturn.wav */; };
+		CF51DD75281C64E6008BA080 /* Mars.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF51DD6D281C64E6008BA080 /* Mars.wav */; };
+		CF51DD76281C64E6008BA080 /* Jupiter.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF51DD6E281C64E6008BA080 /* Jupiter.wav */; };
+		CF51DD77281C64E6008BA080 /* Uranus.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF51DD6F281C64E6008BA080 /* Uranus.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +50,15 @@
 		CF51DD31281C603F008BA080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF51DD33281C603F008BA080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF51DD38281C603F008BA080 /* XylowayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XylowayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF51DD3C281C603F008BA080 /* XylowayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylowayTests.swift; sourceTree = "<group>"; };
 		CF51DD42281C603F008BA080 /* XylowayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XylowayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF51DD46281C603F008BA080 /* XylowayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylowayUITests.swift; sourceTree = "<group>"; };
-		CF51DD48281C603F008BA080 /* XylowayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylowayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF51DD68281C64E6008BA080 /* Venus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Venus.wav; path = "Xyloway/Solar System/Venus.wav"; sourceTree = SOURCE_ROOT; };
+		CF51DD69281C64E6008BA080 /* Earth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Earth.wav; path = "Xyloway/Solar System/Earth.wav"; sourceTree = SOURCE_ROOT; };
+		CF51DD6A281C64E6008BA080 /* Neptune.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Neptune.wav; path = "Xyloway/Solar System/Neptune.wav"; sourceTree = SOURCE_ROOT; };
+		CF51DD6B281C64E6008BA080 /* Mercury.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Mercury.wav; path = "Xyloway/Solar System/Mercury.wav"; sourceTree = SOURCE_ROOT; };
+		CF51DD6C281C64E6008BA080 /* Saturn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Saturn.wav; path = "Xyloway/Solar System/Saturn.wav"; sourceTree = SOURCE_ROOT; };
+		CF51DD6D281C64E6008BA080 /* Mars.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Mars.wav; path = "Xyloway/Solar System/Mars.wav"; sourceTree = SOURCE_ROOT; };
+		CF51DD6E281C64E6008BA080 /* Jupiter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Jupiter.wav; path = "Xyloway/Solar System/Jupiter.wav"; sourceTree = SOURCE_ROOT; };
+		CF51DD6F281C64E6008BA080 /* Uranus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Uranus.wav; path = "Xyloway/Solar System/Uranus.wav"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				CF51DD24281C603E008BA080 /* Xyloway */,
-				CF51DD3B281C603F008BA080 /* XylowayTests */,
-				CF51DD45281C603F008BA080 /* XylowayUITests */,
 				CF51DD23281C603E008BA080 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,8 +109,9 @@
 			children = (
 				CF51DD25281C603E008BA080 /* AppDelegate.swift */,
 				CF51DD27281C603E008BA080 /* SceneDelegate.swift */,
-				CF51DD29281C603E008BA080 /* ViewController.swift */,
-				CF51DD2B281C603E008BA080 /* Main.storyboard */,
+				CF51DD56281C6070008BA080 /* Controller */,
+				CF51DD55281C606A008BA080 /* View */,
+				CF51DD67281C645D008BA080 /* Solar System */,
 				CF51DD2E281C603F008BA080 /* Assets.xcassets */,
 				CF51DD30281C603F008BA080 /* LaunchScreen.storyboard */,
 				CF51DD33281C603F008BA080 /* Info.plist */,
@@ -110,21 +119,36 @@
 			path = Xyloway;
 			sourceTree = "<group>";
 		};
-		CF51DD3B281C603F008BA080 /* XylowayTests */ = {
+		CF51DD55281C606A008BA080 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CF51DD3C281C603F008BA080 /* XylowayTests.swift */,
+				CF51DD2B281C603E008BA080 /* Main.storyboard */,
 			);
-			path = XylowayTests;
+			path = View;
 			sourceTree = "<group>";
 		};
-		CF51DD45281C603F008BA080 /* XylowayUITests */ = {
+		CF51DD56281C6070008BA080 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CF51DD46281C603F008BA080 /* XylowayUITests.swift */,
-				CF51DD48281C603F008BA080 /* XylowayUITestsLaunchTests.swift */,
+				CF51DD29281C603E008BA080 /* ViewController.swift */,
 			);
-			path = XylowayUITests;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF51DD67281C645D008BA080 /* Solar System */ = {
+			isa = PBXGroup;
+			children = (
+				CF51DD6B281C64E6008BA080 /* Mercury.wav */,
+				CF51DD68281C64E6008BA080 /* Venus.wav */,
+				CF51DD69281C64E6008BA080 /* Earth.wav */,
+				CF51DD6D281C64E6008BA080 /* Mars.wav */,
+				CF51DD6E281C64E6008BA080 /* Jupiter.wav */,
+				CF51DD6C281C64E6008BA080 /* Saturn.wav */,
+				CF51DD6F281C64E6008BA080 /* Uranus.wav */,
+				CF51DD6A281C64E6008BA080 /* Neptune.wav */,
+			);
+			name = "Solar System";
+			path = "../Solar System";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +255,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF51DD72281C64E6008BA080 /* Neptune.wav in Resources */,
+				CF51DD73281C64E6008BA080 /* Mercury.wav in Resources */,
 				CF51DD32281C603F008BA080 /* LaunchScreen.storyboard in Resources */,
+				CF51DD77281C64E6008BA080 /* Uranus.wav in Resources */,
+				CF51DD74281C64E6008BA080 /* Saturn.wav in Resources */,
+				CF51DD75281C64E6008BA080 /* Mars.wav in Resources */,
 				CF51DD2F281C603F008BA080 /* Assets.xcassets in Resources */,
+				CF51DD76281C64E6008BA080 /* Jupiter.wav in Resources */,
+				CF51DD70281C64E6008BA080 /* Venus.wav in Resources */,
 				CF51DD2D281C603E008BA080 /* Main.storyboard in Resources */,
+				CF51DD71281C64E6008BA080 /* Earth.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +300,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF51DD3D281C603F008BA080 /* XylowayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +307,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF51DD49281C603F008BA080 /* XylowayUITestsLaunchTests.swift in Sources */,
-				CF51DD47281C603F008BA080 /* XylowayUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +472,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +485,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,8 +502,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +515,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
