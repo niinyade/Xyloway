@@ -23,193 +23,163 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gtd-v2-vXl" userLabel="Neptune">
                                         <rect key="frame" x="0.0" y="0.0" width="92.5" height="414"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmC-ZT-cjQ" userLabel="Neptune">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmC-ZT-cjQ" userLabel="Neptune">
                                                 <rect key="frame" x="5" y="20" width="82.5" height="374"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <color key="tintColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Neptune" image="Neptune"/>
+                                                <state key="disabled" image="Neptune"/>
+                                                <connections>
+                                                    <action selector="planetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KWM-7t-usm"/>
+                                                </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8" translatesAutoresizingMaskIntoConstraints="NO" id="ack-yM-eR2">
-                                                <rect key="frame" x="5" y="10" width="82.5" height="394"/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="ack-yM-eR2" firstAttribute="leading" secondItem="gtd-v2-vXl" secondAttribute="leading" constant="5" id="437-wl-Y6h"/>
-                                            <constraint firstItem="SmC-ZT-cjQ" firstAttribute="leading" secondItem="gtd-v2-vXl" secondAttribute="leading" constant="5" id="7vy-sQ-6a1"/>
-                                            <constraint firstAttribute="bottom" secondItem="ack-yM-eR2" secondAttribute="bottom" constant="10" id="CUn-Nq-6RE"/>
-                                            <constraint firstAttribute="trailing" secondItem="SmC-ZT-cjQ" secondAttribute="trailing" constant="5" id="FSG-tp-UrA"/>
-                                            <constraint firstAttribute="bottom" secondItem="SmC-ZT-cjQ" secondAttribute="bottom" constant="20" id="R8H-6z-MHu"/>
-                                            <constraint firstItem="ack-yM-eR2" firstAttribute="top" secondItem="gtd-v2-vXl" secondAttribute="top" constant="10" id="Ut2-NS-VTy"/>
-                                            <constraint firstItem="SmC-ZT-cjQ" firstAttribute="top" secondItem="gtd-v2-vXl" secondAttribute="top" constant="20" id="g4z-GB-mIO"/>
-                                            <constraint firstAttribute="trailing" secondItem="ack-yM-eR2" secondAttribute="trailing" constant="5" id="kjB-JI-9pt"/>
+                                            <constraint firstAttribute="trailing" secondItem="SmC-ZT-cjQ" secondAttribute="trailing" constant="5" id="7nQ-Je-GmR"/>
+                                            <constraint firstItem="SmC-ZT-cjQ" firstAttribute="leading" secondItem="gtd-v2-vXl" secondAttribute="leading" constant="5" id="Zlv-SD-wSK"/>
+                                            <constraint firstAttribute="bottom" secondItem="SmC-ZT-cjQ" secondAttribute="bottom" constant="20" id="aBL-h9-Rr0"/>
+                                            <constraint firstItem="SmC-ZT-cjQ" firstAttribute="top" secondItem="gtd-v2-vXl" secondAttribute="top" constant="20" id="jq2-de-enL"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V90-lY-IGG" userLabel="Uranus">
                                         <rect key="frame" x="102.5" y="0.0" width="92" height="414"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czb-wo-vZE" userLabel="Uranus">
-                                                <rect key="frame" x="5" y="25" width="82" height="364"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czb-wo-vZE" userLabel="Uranus">
+                                                <rect key="frame" x="5" y="30" width="82" height="354"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Uranus" image="Uranus"/>
+                                                <connections>
+                                                    <action selector="planetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vOu-sj-7Qu"/>
+                                                </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7" translatesAutoresizingMaskIntoConstraints="NO" id="C7q-9o-Lal">
-                                                <rect key="frame" x="5" y="20" width="82" height="374"/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="C7q-9o-Lal" secondAttribute="trailing" constant="5" id="5T4-hu-KDG"/>
-                                            <constraint firstAttribute="trailing" secondItem="czb-wo-vZE" secondAttribute="trailing" constant="5" id="HwD-8L-ys6"/>
-                                            <constraint firstItem="czb-wo-vZE" firstAttribute="top" secondItem="V90-lY-IGG" secondAttribute="top" constant="25" id="Jgw-te-Ezk"/>
-                                            <constraint firstItem="C7q-9o-Lal" firstAttribute="leading" secondItem="V90-lY-IGG" secondAttribute="leading" constant="5" id="Kjp-Uv-Ffc"/>
-                                            <constraint firstItem="czb-wo-vZE" firstAttribute="leading" secondItem="V90-lY-IGG" secondAttribute="leading" constant="5" id="a8r-eq-uEH"/>
-                                            <constraint firstAttribute="bottom" secondItem="C7q-9o-Lal" secondAttribute="bottom" constant="20" id="dUp-Ld-hih"/>
-                                            <constraint firstItem="C7q-9o-Lal" firstAttribute="top" secondItem="V90-lY-IGG" secondAttribute="top" constant="20" id="pS2-Az-gGF"/>
-                                            <constraint firstAttribute="bottom" secondItem="czb-wo-vZE" secondAttribute="bottom" constant="25" id="qrp-EI-l1r"/>
+                                            <constraint firstAttribute="bottom" secondItem="czb-wo-vZE" secondAttribute="bottom" constant="30" id="6in-Le-2wl"/>
+                                            <constraint firstItem="czb-wo-vZE" firstAttribute="top" secondItem="V90-lY-IGG" secondAttribute="top" constant="30" id="8ih-jg-k4l"/>
+                                            <constraint firstAttribute="trailing" secondItem="czb-wo-vZE" secondAttribute="trailing" constant="5" id="KAO-bZ-KDn"/>
+                                            <constraint firstItem="czb-wo-vZE" firstAttribute="leading" secondItem="V90-lY-IGG" secondAttribute="leading" constant="5" id="lv7-Yu-mbt"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rda-N9-6Uf" userLabel="Saturn">
                                         <rect key="frame" x="204.5" y="0.0" width="92.5" height="414"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhQ-pO-3bD" userLabel="Saturn">
-                                                <rect key="frame" x="5" y="35" width="82.5" height="344"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhQ-pO-3bD" userLabel="Saturn">
+                                                <rect key="frame" x="5" y="40" width="82.5" height="334"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Saturn" image="Saturn"/>
+                                                <connections>
+                                                    <action selector="planetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pu9-WL-lCb"/>
+                                                </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="irm-VI-BUP">
-                                                <rect key="frame" x="5" y="30" width="82.5" height="354"/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="irm-VI-BUP" firstAttribute="top" secondItem="rda-N9-6Uf" secondAttribute="top" constant="30" id="0e2-gi-jMd"/>
-                                            <constraint firstItem="XhQ-pO-3bD" firstAttribute="leading" secondItem="rda-N9-6Uf" secondAttribute="leading" constant="5" id="DRw-Sv-t2K"/>
-                                            <constraint firstItem="irm-VI-BUP" firstAttribute="leading" secondItem="rda-N9-6Uf" secondAttribute="leading" constant="5" id="ROc-0s-3Xt"/>
-                                            <constraint firstAttribute="trailing" secondItem="XhQ-pO-3bD" secondAttribute="trailing" constant="5" id="ScW-Ar-5ex"/>
-                                            <constraint firstAttribute="bottom" secondItem="irm-VI-BUP" secondAttribute="bottom" constant="30" id="Yhq-bj-WHF"/>
-                                            <constraint firstItem="XhQ-pO-3bD" firstAttribute="top" secondItem="rda-N9-6Uf" secondAttribute="top" constant="35" id="fMR-xG-AW0"/>
-                                            <constraint firstAttribute="trailing" secondItem="irm-VI-BUP" secondAttribute="trailing" constant="5" id="p5j-nZ-EuE"/>
-                                            <constraint firstAttribute="bottom" secondItem="XhQ-pO-3bD" secondAttribute="bottom" constant="35" id="z4F-Nt-YJs"/>
+                                            <constraint firstAttribute="bottom" secondItem="XhQ-pO-3bD" secondAttribute="bottom" constant="40" id="0ZC-Ub-xOe"/>
+                                            <constraint firstItem="XhQ-pO-3bD" firstAttribute="leading" secondItem="rda-N9-6Uf" secondAttribute="leading" constant="5" id="520-Y1-VVW"/>
+                                            <constraint firstAttribute="trailing" secondItem="XhQ-pO-3bD" secondAttribute="trailing" constant="5" id="hIX-u4-bB1"/>
+                                            <constraint firstItem="XhQ-pO-3bD" firstAttribute="top" secondItem="rda-N9-6Uf" secondAttribute="top" constant="40" id="ze0-6h-hJv"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3hs-2l-4yx" userLabel="Jupiter">
                                         <rect key="frame" x="307" y="0.0" width="92" height="414"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mG-Fg-fIe" userLabel="Jupiter">
-                                                <rect key="frame" x="5" y="40" width="82" height="334"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mG-Fg-fIe" userLabel="Jupiter">
+                                                <rect key="frame" x="5" y="50" width="82" height="314"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Jupiter" image="Jupiter"/>
+                                                <connections>
+                                                    <action selector="planetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q0x-iU-OKW"/>
+                                                </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="sQg-XM-ess">
-                                                <rect key="frame" x="5" y="40" width="82" height="334"/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="sQg-XM-ess" firstAttribute="top" secondItem="3hs-2l-4yx" secondAttribute="top" constant="40" id="HEb-5o-ylj"/>
-                                            <constraint firstAttribute="trailing" secondItem="sQg-XM-ess" secondAttribute="trailing" constant="5" id="HTy-zM-I7A"/>
-                                            <constraint firstAttribute="bottom" secondItem="4mG-Fg-fIe" secondAttribute="bottom" constant="40" id="Jqr-qa-GCg"/>
-                                            <constraint firstItem="sQg-XM-ess" firstAttribute="leading" secondItem="3hs-2l-4yx" secondAttribute="leading" constant="5" id="a5J-Fx-lY5"/>
-                                            <constraint firstAttribute="bottom" secondItem="sQg-XM-ess" secondAttribute="bottom" constant="40" id="bRU-o1-vad"/>
-                                            <constraint firstAttribute="trailing" secondItem="4mG-Fg-fIe" secondAttribute="trailing" constant="5" id="cpq-hx-FX7"/>
-                                            <constraint firstItem="4mG-Fg-fIe" firstAttribute="leading" secondItem="3hs-2l-4yx" secondAttribute="leading" constant="5" id="iHv-fe-3yj"/>
-                                            <constraint firstItem="4mG-Fg-fIe" firstAttribute="top" secondItem="3hs-2l-4yx" secondAttribute="top" constant="40" id="q56-QV-c87"/>
+                                            <constraint firstItem="4mG-Fg-fIe" firstAttribute="leading" secondItem="3hs-2l-4yx" secondAttribute="leading" constant="5" id="9Xu-8M-NQc"/>
+                                            <constraint firstItem="4mG-Fg-fIe" firstAttribute="top" secondItem="3hs-2l-4yx" secondAttribute="top" constant="50" id="DZR-ga-McV"/>
+                                            <constraint firstAttribute="bottom" secondItem="4mG-Fg-fIe" secondAttribute="bottom" constant="50" id="IWN-Dd-Vec"/>
+                                            <constraint firstAttribute="trailing" secondItem="4mG-Fg-fIe" secondAttribute="trailing" constant="5" id="odT-hN-xbW"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rgf-xY-Xto" userLabel="Mars">
                                         <rect key="frame" x="409" y="0.0" width="92.5" height="414"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyq-7d-nkv" userLabel="Mars">
-                                                <rect key="frame" x="5" y="50" width="82.5" height="314"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyq-7d-nkv" userLabel="Mars">
+                                                <rect key="frame" x="5" y="60" width="82.5" height="294"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Mars" image="Mars"/>
+                                                <connections>
+                                                    <action selector="planetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sX8-RW-qZ6"/>
+                                                </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="oTF-DS-30I">
-                                                <rect key="frame" x="5" y="50" width="82.5" height="314"/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="oTF-DS-30I" secondAttribute="trailing" constant="5" id="91P-Ak-wnn"/>
-                                            <constraint firstAttribute="bottom" secondItem="oTF-DS-30I" secondAttribute="bottom" constant="50" id="H41-cA-k1r"/>
-                                            <constraint firstItem="zyq-7d-nkv" firstAttribute="top" secondItem="Rgf-xY-Xto" secondAttribute="top" constant="50" id="MoQ-cv-miu"/>
-                                            <constraint firstAttribute="bottom" secondItem="zyq-7d-nkv" secondAttribute="bottom" constant="50" id="N8K-W3-u1n"/>
-                                            <constraint firstItem="zyq-7d-nkv" firstAttribute="leading" secondItem="Rgf-xY-Xto" secondAttribute="leading" constant="5" id="TlZ-QW-DNP"/>
-                                            <constraint firstItem="oTF-DS-30I" firstAttribute="top" secondItem="Rgf-xY-Xto" secondAttribute="top" constant="50" id="a7v-VY-eug"/>
-                                            <constraint firstAttribute="trailing" secondItem="zyq-7d-nkv" secondAttribute="trailing" constant="5" id="s7R-1F-iTp"/>
-                                            <constraint firstItem="oTF-DS-30I" firstAttribute="leading" secondItem="Rgf-xY-Xto" secondAttribute="leading" constant="5" id="spU-df-GhF"/>
+                                            <constraint firstAttribute="trailing" secondItem="zyq-7d-nkv" secondAttribute="trailing" constant="5" id="ZZ0-iI-FQr"/>
+                                            <constraint firstItem="zyq-7d-nkv" firstAttribute="leading" secondItem="Rgf-xY-Xto" secondAttribute="leading" constant="5" id="bM4-oM-WU3"/>
+                                            <constraint firstAttribute="bottom" secondItem="zyq-7d-nkv" secondAttribute="bottom" constant="60" id="f5a-En-hYy"/>
+                                            <constraint firstItem="zyq-7d-nkv" firstAttribute="top" secondItem="Rgf-xY-Xto" secondAttribute="top" constant="60" id="oag-sa-u81"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ues-yn-8al" userLabel="Earth">
                                         <rect key="frame" x="511.5" y="0.0" width="92" height="414"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FN4-VK-TxI" userLabel="Earth">
-                                                <rect key="frame" x="5" y="60" width="82" height="294"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FN4-VK-TxI" userLabel="Earth">
+                                                <rect key="frame" x="5" y="70" width="82" height="274"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Earth" image="Earth"/>
+                                                <connections>
+                                                    <action selector="planetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U4f-Nk-5yp"/>
+                                                </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="zkn-mA-ItH">
-                                                <rect key="frame" x="5" y="60" width="82" height="294"/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="zkn-mA-ItH" firstAttribute="leading" secondItem="ues-yn-8al" secondAttribute="leading" constant="5" id="5wr-a8-kUH"/>
-                                            <constraint firstAttribute="trailing" secondItem="FN4-VK-TxI" secondAttribute="trailing" constant="5" id="Jk5-ff-5Tm"/>
-                                            <constraint firstItem="zkn-mA-ItH" firstAttribute="top" secondItem="ues-yn-8al" secondAttribute="top" constant="60" id="emn-ii-gmm"/>
-                                            <constraint firstItem="FN4-VK-TxI" firstAttribute="top" secondItem="ues-yn-8al" secondAttribute="top" constant="60" id="fsL-LF-Qod"/>
-                                            <constraint firstAttribute="bottom" secondItem="zkn-mA-ItH" secondAttribute="bottom" constant="60" id="l0L-pE-sBE"/>
-                                            <constraint firstAttribute="bottom" secondItem="FN4-VK-TxI" secondAttribute="bottom" constant="60" id="m1T-99-qT0"/>
-                                            <constraint firstItem="FN4-VK-TxI" firstAttribute="leading" secondItem="ues-yn-8al" secondAttribute="leading" constant="5" id="xQ4-fK-eb0"/>
-                                            <constraint firstAttribute="trailing" secondItem="zkn-mA-ItH" secondAttribute="trailing" constant="5" id="xiB-UZ-YfW"/>
+                                            <constraint firstAttribute="trailing" secondItem="FN4-VK-TxI" secondAttribute="trailing" constant="5" id="6qV-1o-Obg"/>
+                                            <constraint firstItem="FN4-VK-TxI" firstAttribute="leading" secondItem="ues-yn-8al" secondAttribute="leading" constant="5" id="gqB-ZF-ueM"/>
+                                            <constraint firstAttribute="bottom" secondItem="FN4-VK-TxI" secondAttribute="bottom" constant="70" id="ip1-Du-mlB"/>
+                                            <constraint firstItem="FN4-VK-TxI" firstAttribute="top" secondItem="ues-yn-8al" secondAttribute="top" constant="70" id="o5t-sR-86V"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NNZ-uc-tM9" userLabel="Venus">
                                         <rect key="frame" x="613.5" y="0.0" width="92.5" height="414"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vD-F2-XFb" userLabel="Venus">
-                                                <rect key="frame" x="5" y="70" width="82.5" height="274"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vD-F2-XFb" userLabel="Venus">
+                                                <rect key="frame" x="5" y="80" width="82.5" height="254"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Venus" image="Venus"/>
+                                                <connections>
+                                                    <action selector="planetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6CX-lP-Zqj"/>
+                                                </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="olc-vd-Klg">
-                                                <rect key="frame" x="5" y="70" width="82.5" height="274"/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="9vD-F2-XFb" secondAttribute="bottom" constant="70" id="02J-zp-363"/>
-                                            <constraint firstItem="olc-vd-Klg" firstAttribute="leading" secondItem="NNZ-uc-tM9" secondAttribute="leading" constant="5" id="3GQ-1S-1xo"/>
-                                            <constraint firstAttribute="bottom" secondItem="olc-vd-Klg" secondAttribute="bottom" constant="70" id="4Tn-zO-D0y"/>
-                                            <constraint firstAttribute="trailing" secondItem="olc-vd-Klg" secondAttribute="trailing" constant="5" id="5RX-9N-ie5"/>
-                                            <constraint firstAttribute="trailing" secondItem="9vD-F2-XFb" secondAttribute="trailing" constant="5" id="VwG-gw-zEv"/>
-                                            <constraint firstItem="9vD-F2-XFb" firstAttribute="leading" secondItem="NNZ-uc-tM9" secondAttribute="leading" constant="5" id="c56-1r-JKo"/>
-                                            <constraint firstItem="9vD-F2-XFb" firstAttribute="top" secondItem="NNZ-uc-tM9" secondAttribute="top" constant="70" id="eGP-zd-2ez"/>
-                                            <constraint firstItem="olc-vd-Klg" firstAttribute="top" secondItem="NNZ-uc-tM9" secondAttribute="top" constant="70" id="rFr-ng-QKW"/>
+                                            <constraint firstItem="9vD-F2-XFb" firstAttribute="top" secondItem="NNZ-uc-tM9" secondAttribute="top" constant="80" id="CTc-le-gLR"/>
+                                            <constraint firstAttribute="bottom" secondItem="9vD-F2-XFb" secondAttribute="bottom" constant="80" id="Emu-hp-xba"/>
+                                            <constraint firstAttribute="trailing" secondItem="9vD-F2-XFb" secondAttribute="trailing" constant="5" id="sRg-5G-vig"/>
+                                            <constraint firstItem="9vD-F2-XFb" firstAttribute="leading" secondItem="NNZ-uc-tM9" secondAttribute="leading" constant="5" id="zam-p9-pJa"/>
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lKe-hp-Ww6" userLabel="Mercury">
                                         <rect key="frame" x="716" y="0.0" width="92" height="414"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2N-AW-Ndj" userLabel="Mercury">
-                                                <rect key="frame" x="5" y="80" width="82" height="254"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2N-AW-Ndj" userLabel="Mercury">
+                                                <rect key="frame" x="5" y="90" width="82" height="234"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Mercury" image="Mercury"/>
+                                                <connections>
+                                                    <action selector="planetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7c4-5q-BVG"/>
+                                                </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="HAq-iM-GRW">
-                                                <rect key="frame" x="5" y="80" width="82" height="254"/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="D2N-AW-Ndj" firstAttribute="top" secondItem="lKe-hp-Ww6" secondAttribute="top" constant="80" id="ChX-o7-3u9"/>
-                                            <constraint firstItem="HAq-iM-GRW" firstAttribute="leading" secondItem="lKe-hp-Ww6" secondAttribute="leading" constant="5" id="J5u-DV-2CV"/>
-                                            <constraint firstItem="HAq-iM-GRW" firstAttribute="top" secondItem="lKe-hp-Ww6" secondAttribute="top" constant="80" id="KAI-yq-LkX"/>
-                                            <constraint firstItem="D2N-AW-Ndj" firstAttribute="leading" secondItem="lKe-hp-Ww6" secondAttribute="leading" constant="5" id="NH5-9Y-ukG"/>
-                                            <constraint firstAttribute="trailing" secondItem="HAq-iM-GRW" secondAttribute="trailing" constant="5" id="Tm0-gp-4oc"/>
-                                            <constraint firstAttribute="bottom" secondItem="HAq-iM-GRW" secondAttribute="bottom" constant="80" id="Z7n-aj-VcA"/>
-                                            <constraint firstAttribute="trailing" secondItem="D2N-AW-Ndj" secondAttribute="trailing" constant="5" id="eAf-NX-hRJ"/>
-                                            <constraint firstAttribute="bottom" secondItem="D2N-AW-Ndj" secondAttribute="bottom" constant="80" id="via-8n-u20"/>
+                                            <constraint firstItem="D2N-AW-Ndj" firstAttribute="top" secondItem="lKe-hp-Ww6" secondAttribute="top" constant="90" id="3iH-qL-fMk"/>
+                                            <constraint firstAttribute="bottom" secondItem="D2N-AW-Ndj" secondAttribute="bottom" constant="90" id="99D-F1-vXQ"/>
+                                            <constraint firstItem="D2N-AW-Ndj" firstAttribute="leading" secondItem="lKe-hp-Ww6" secondAttribute="leading" constant="5" id="N1l-ve-DrJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="D2N-AW-Ndj" secondAttribute="trailing" constant="5" id="alI-qg-fmU"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -231,16 +201,19 @@
         </scene>
     </scenes>
     <resources>
-        <image name="1" width="96.333335876464844" height="326.66665649414062"/>
-        <image name="2" width="96.333335876464844" height="340.33334350585938"/>
-        <image name="3" width="96.333335876464844" height="353.33334350585938"/>
-        <image name="4" width="96.333335876464844" height="366.33334350585938"/>
-        <image name="5" width="96.333335876464844" height="379.66665649414062"/>
-        <image name="6" width="96.333335876464844" height="392.66665649414062"/>
-        <image name="7" width="96.333335876464844" height="405.66665649414062"/>
-        <image name="8" width="96.333335876464844" height="418.66665649414062"/>
+        <image name="Earth" width="96.333335876464844" height="353.33334350585938"/>
+        <image name="Jupiter" width="96.333335876464844" height="379.66665649414062"/>
+        <image name="Mars" width="96.333335876464844" height="366.33334350585938"/>
+        <image name="Mercury" width="96.333335876464844" height="326.66665649414062"/>
+        <image name="Neptune" width="96.333335876464844" height="418.66665649414062"/>
+        <image name="Saturn" width="96.333335876464844" height="392.66665649414062"/>
+        <image name="Uranus" width="96.333335876464844" height="405.66665649414062"/>
+        <image name="Venus" width="96.333335876464844" height="340.33334350585938"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiarySystemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
