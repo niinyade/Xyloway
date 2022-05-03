@@ -6,9 +6,8 @@
 </br>
 
 <p align="center">
-<a target="_blank"><img src="https://img.shields.io/badge/-Swift-FFA500?style=for-the-badge&logo=swift&logoColor=white" target="_blank"></a>
- <a href="mailto:niinyade@icloud.com"><img src="https://img.shields.io/badge/-niinyade@icloud.com-52B0E7?style=for-the-badge&logo=icloud&logoColor=white" target="_blank"></a> 
- <a href=""><img src="https://img.shields.io/badge/-behance-%23333?style=for-the-badge&logo=behance&logoColor=white" target="_blank"></a>
+<a href="https://developer.apple.com/swift/" target="_blank"><img src="https://img.shields.io/badge/-Swift-FFA500?style=for-the-badge&logo=swift&logoColor=white" target="_blank"></a>
+<a href="https://www.behance.net/diogo_jg68b5"><img src="https://img.shields.io/badge/-behance-%23333?style=for-the-badge&logo=behance&logoColor=white" target="_blank"></a>
 </p>
 
 <p align="center">
